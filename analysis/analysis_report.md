@@ -13,3 +13,7 @@ If successful, the attacker could gain unauthorized access to the server.
 - Block the attacking IP
 - Disable root login over SSH
 - Enforce key-based authentication
+
+## Lessons Learned
+This project improved my ability to detect suspicious authentication
+patterns and think from a SOC analyst perspective.
