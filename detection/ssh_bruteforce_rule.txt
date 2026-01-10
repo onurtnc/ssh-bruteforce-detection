@@ -1,0 +1,17 @@
+Rule Name: SSH Brute Force Attempt
+
+Condition:
+- More than 5 failed SSH login attempts
+- From the same source IP
+- Within 1 minute
+
+Severity: High
+
+MITRE ATT&CK:
+- T1110 – Brute Force
+
+Action:
+- Generate alert
+- Flag source IP
+- Recommend IP blocking
+
